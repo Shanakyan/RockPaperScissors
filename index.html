@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="/RockPaperScissors/style.css">
+    <link href="https://fonts.cdnfonts.com/css/seymour-one" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="section">
+    <div class="img">
+        <img class="aiArmImage" id = "AIArm" src="./img/AIArmimage.png" alt="AIArmImage">
+        <img class="humanArmImage" id = "HumanArm" src="./img/humanArmRock.png"  alt="humanArmImage">
+        <!-- <img class="scissors" src="./img/scissors.png" alt=""> -->
+    </div>
+
+    <div class="wrapper">
+        <div class="top_wrap">
+            <p class="rounds"><span class="rounds__score" id="AIRound">0</span><br>AI</p>
+            <p class="rounds"><span class="rounds__score" id="humanRound">0</span><br>YOU</p>
+        </div>
+        <!-- <div class="buttom_wrap">
+            <button class="btn" id = "rock" ><img class="button" src="./img/buttonRock.png" alt="buttonRock"></button>
+            <button class="btn" id = "paper" ><img class="button" src="./img/state=Idle.png" alt="buttonPaper"></button>
+            <button class="btn" id = "scissors"><img class="button" src="./img/buttonScissors.png" alt="buttonScissors"></button>
+        </div> -->
+        <div class="buttom_wrap">
+            <button class="btn" id = "rock" onclick ="func(), rockHuman()"  ><img class="button" src="./img/buttonRock.png" alt="buttonRock"></button>
+            <button class="btn" id = "paper" onclick ="func(), paperHuman()" ><img class="button" src="./img/state=Idle.png" alt="buttonPaper"></button>
+            <button class="btn" id = "scissors" onclick ="func(), scissorsHuman()" ><img class="button" src="./img/buttonScissors.png" alt="buttonScissors"></button>
+        </div>
+</div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- <div class="section">
+    <div class="img">
+        <img class="aiArmImage" src="./img/AIArm.png" alt="AIArmImage">
+    </div>
+    <div class="wrapper">
+        <div class="round_wrap">
+            <p class="rounds"><span class="rounds__score" id="AIRound">0</span><br>AI</p>
+            <p class="rounds"><span class="rounds__score" id="YOURound">0</span><br>YOU</p>
+        </div>
+        <div class="button_wrap">
+            <button class="btn"><img class="button" src="./img/buttonRock.png" alt="buttonRock"></button>
+            <button class="btn"><img class="button" src="./img/state=Idle.png" alt="buttonPaper"></button>
+            <button class="btn"><img class="button" src="./img/buttonScissors.png" alt="buttonScissors"></button>
+        </div>
+    </div>
+
+
+    <div class="img">
+        <img class="humanArmImage" src="./img/HumanArm.png" alt="humanArmImage">
+    </div>
+    </div> -->
+    <script src="/RockPaperScissors/script.js"></script>
+</body>
+
+</html>
